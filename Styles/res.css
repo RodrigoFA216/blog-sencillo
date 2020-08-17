@@ -82,6 +82,44 @@ ul {
 }
 
 
+/* Cuerpo */
+
+hr {
+    margin: 10px 0px;
+}
+
+.ResBody {
+    width: 100%;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 700px;
+    padding: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ResBody h1 {
+    color: #ffffff;
+}
+
+.ResBody p {
+    color: #ffffff;
+}
+
+.TitleB {
+    color: #ffffff;
+    align-items: center;
+}
+
+
 /*  social*/
 
 .social {
@@ -121,7 +159,6 @@ ul {
     color: #ffffff;
     font-size: 12px;
     padding: 35px 0;
-    text-align: center;
 }
 
 .foother-container {
@@ -175,6 +212,41 @@ ul {
     .nav-main ul.nav-menu-right {
         margin-right: 40px;
     }
+    .ResBody {
+        width: 100%;
+        background: #0f0c29;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 950px;
+        padding: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
 }
 
-@media(max-width: 500px) {}
+@media(max-width: 500px) {
+    .ResBody {
+        width: 100%;
+        background: #0f0c29;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 1320px;
+        padding: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
