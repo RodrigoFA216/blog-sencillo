@@ -4,6 +4,50 @@
     padding: 0;
 }
 
+
+/*paleta de colores ride
+#8a151b
+##bc6367
+#accecd
+#fafffc
+#b7ae9d
+#585340
+*/
+
+
+/*paleta de colores vintage fantasy
+#813a26
+#d94c3a
+#e8c571
+#eddbc3
+#8fb59c
+#54a992
+*/
+
+
+/*paleta de colores fria 
+#11120c
+#65b791
+#875a85
+*/
+
+
+/*paleta otoñal
+#f9d219
+#d8d7d9
+#65645f
+#383636
+*/
+
+
+/*paleta unicornio
+#60bdaf
+#a1d8b1
+#edfcc2
+#f88aaf
+#455655
+*/
+
 body {
     background-color: black;
     color: #ffffff;
@@ -79,6 +123,59 @@ ul {
     z-index: 2;
     font-size: 1.5rem;
     display: none;
+}
+
+
+/*Cuerpo */
+
+.bodyA {
+    width: 100%;
+    background: #8e9eab;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e9eab, #dae9ec, #8e9eab);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e9eab, #dae9ec, #8e9eab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 1150px;
+    padding: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #000000;
+}
+
+.bodyA__div h1 {
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bodyA__div p {
+    font-size: 20px;
+}
+
+.bodyA__div ul {
+    font-size: 20px;
+}
+
+.bodyA__div-a {
+    color: #000000;
+    font-size: 25px;
+}
+
+.bodyA__div-a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+#bodyA__div-i {
+    font-size: 20px;
+    color: #000000;
 }
 
 
@@ -175,6 +272,13 @@ ul {
     .nav-main ul.nav-menu-right {
         margin-right: 40px;
     }
+    .bodyA {
+        height: 1850px;
+    }
 }
 
-@media(max-width: 500px) {}
+@media(max-width: 500px) {
+    .bodyA {
+        height: 2500px;
+    }
+}

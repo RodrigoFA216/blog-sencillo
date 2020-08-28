@@ -265,7 +265,7 @@ hr {
         margin-right: 40px;
     }
     .showcase {
-        background: url('/img/UNAM\ y\ IPN\ mini.png') no-repeat center center/cover;
+        background: url('/Styles/img/UNAM y IPN mini.png') no-repeat center center/cover;
     }
     .news-cards {
         grid-template-columns: repeat(2, 1fr);
@@ -280,7 +280,7 @@ hr {
 
 @media(max-width: 500px) {
     .showcase {
-        background: url('/img/UNAM\ y\ IPN\ mini.png') no-repeat center center/cover;
+        background: url('/Styles/img/UNAM y IPN mini.png') no-repeat center center/cover;
     }
     .news-cards {
         grid-template-columns: 1fr;
